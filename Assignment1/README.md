@@ -1,2 +1,2 @@
 # Pride & Prejudice
-## A novel by Jane Austen
+## A Novel by Jane Austen
