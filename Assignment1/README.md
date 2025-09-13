@@ -1,3 +1,4 @@
-# Love Game in Eastern Fantasy
-## A Chinese Drama
-Love Game in Eastern Fantasy is a Chinese fantasy drama on Netflix. It follows a young woman who gets sucked into a fantasy novel and has to complete video game-like objectives to get back to reality. I just finished it, and it's probably not my all time favorite (that changes constantly), but it is definitely my favorite show at the moment. 
+# Reflection
+<p>The peer feedback I incorporated into my design was, first, that I should make my pictures bigger, since they were slightly too small to see details. Upon looking at my page again, I agreed with that feedback, and did so. I also made all the text bigger to accomodate the bigger pictures.</p>
+
+<p>Second, I incoporated a text-shadow into my top heading. Other classmates did this, and all the peer reviews seem to like it, so I decided to add it to mine. The top heading is on a white background, so that it sticks out, so I made the text-shadow purple in order to create consistency with the background color of the rest of the page. 

@@ -9,14 +9,24 @@ h1 {
   text-align:center;
   background-color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 3px rgb(188, 148, 196);
+  font-size: 50;
 }
 h2,h3 {
   text-align:center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
+  text-decoration: underline;
+}
+
+h2 {
+  font-size:35;
+}
+h3 {
+  font-size:25;
 }
 
 p {
   text-align:center;
+  font-size: 18;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
