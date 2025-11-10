@@ -1,0 +1,2 @@
+# Reflection
+<p>I am doing pretty well with the material thus far. It hasn't been too difficult keeping up with the class while abroad. The only thing I struggled with was remembering to do my classes while also being a tourist, but I fly back to the US soon, so that won't be a problem anymore. Other than that, the class has been pretty straightforward, and I'm enjoying playing with the design of my site. 
