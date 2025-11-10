@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(0, 0, 0)
+}
+
 .blog-preview {
  display: flex;
   flex-direction: row; 
@@ -6,6 +10,8 @@
   max-width: 80%;
   margin: 80px auto;
   padding: 20px 40px;
+  background-color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .blog-text {
@@ -59,11 +65,12 @@
 }
 
 .item {
-  background-color: #fcf9ff;
+  background-color: #7a0000;
   border-radius: 8px;
   aspect-ratio: 1 / 1;
   display: flex;
   justify-content: center;
+  height: auto;
 }
 
 .item img {
@@ -78,6 +85,9 @@
   text-align: center;
   display: flex; 
   align-items: center; 
+  color: bisque;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
 
 .nav {
