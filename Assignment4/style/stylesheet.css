@@ -102,3 +102,29 @@ body {
   font-size: 20px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #7a0000;
+  color: bisque;
+  padding: 30px 100px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 15;
+  margin: 15;
+}
+
+.footer li {
+  margin-bottom: 6px; 
+  font-size: 14px; 
+}
+
+.social-icons img {
+  width: 22px; 
+  margin-right: 10px; 
+  vertical-align: middle;
+}
