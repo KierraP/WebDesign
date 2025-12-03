@@ -6,13 +6,18 @@
     <meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
     <title>The title of the browser tab</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
   </head>
+ 
   <body>
-
    <nav>
      
    </nav>
 
+   <main>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="email@example.com">
+   </main>
 
 
     <header>
@@ -21,7 +26,10 @@
 
 
     <footer>
-      
+        <p>&copy; <span id="year"></span> Kierra Plaggemeyer</p>
+        <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
     </footer>
   </body>
 </html>
