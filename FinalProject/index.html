@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Travel Blog</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="seoul.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Seoul
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Flexbox</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Blog</a></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="seattle.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Seattle
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Flexbox</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Blog</a></li>
+          </ul>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="lasvegas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Las Vegas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Flexbox</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Blog</a></li>
+          </ul>
+        </li>
+      </ul>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="disneyland.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Disneyland
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Flexbox</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Blog</a></li>
+          </ul>
+        </li>
+      </ul>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="disneyworld.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DisneyWorld
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Flexbox</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Blog</a></li>
+          </ul>
+        </li>
+      </ul>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="washingtondc.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Washington, DC
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Flexbox</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Blog</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/glass boat.jpeg" class="d-block w-100" alt="Describe the image here"> 
+    </div>
+    <div class="carousel-item">
+      <img src="images/star wars land.jpeg" class="d-block w-100" alt="Describe the image here">
+    </div>
+    <div class="carousel-item">
+      <img src="images/garden.jpeg" class="d-block w-100" alt="Describe the image here">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<main>
+<div class="card-section">
+  <div class="card">
+  <a href="seoul.html">Seoul</a>
+    <div class="card img">
+    <img src="images/hanbok.jpg" alt="Wearing Hanbok in Seoul, South Korea.">
+      </div>
+    <p>Seoul, South Korea</p>
+    </div>
+
+<div class="card">
+    <a href="seattle.html">Seattle</a>
+    <div class="card img">
+    <img src="images/space needle.jpg" alt="The Space Needle in Seattle, Washington.">
+      </div>
+    <p>Seattle, Washington</p>
+    </div>
+
+<div class="card">
+      <a href="lasvegas.html">Las Vegas</a>
+    <div class="card img">
+    <img src="images/las vegas.jpg" alt="The Las Vegas strip in Las Vegas.">
+      </div>
+    <p>Las Vegas, Nevada</p>
+    </div>
+  </div>
+
+<div class="card-section">
+  <div class="card">
+  <a href="disneyland.html">Disneyland</a>
+    <div class="card img">
+    <img src="images/disneyland.jpg" alt="Sleeping Beauty's Castle at Disneyland.">
+      </div>
+    <p>Anaheim, California</p>
+    </div>
+
+<div class="card">
+    <a href="disneyworld.html">DisneyWorld</a>
+    <div class="card img">
+    <img src="images/epcot ball.jpg" alt="Spaceship Earth at EPCOT.">
+      </div>
+    <p>Orlando, Florida</p>
+    </div>
+
+<div class="card">
+      <a href="washingtondc.html">Washington, DC</a>
+    <div class="card img">
+    <img src="images/washington dc.JPEG" alt="A government building in Washington, DC.">
+      </div>
+    <p>Washington, DC</p>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="social-icons">
+    <img src="images/icon-instagram.png" alt="Instagram logo">
+    <img src="images/icon-youtube.png" alt="YouTube logo">
+  </div>
+
+  <ul class="explore">
+    <li>Blog</li>
+    <li>Gallery</li>
+    <li>Contact</li>
+  </ul>
+
+  <ul class="resources">
+    <li>Contact</li>
+    <li>FAQ</li>
+    <li>Suggestions</li>
+  </ul>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

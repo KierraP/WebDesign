@@ -1,0 +1,2 @@
+# Reflection
+I'm still working on getting things to do what I want them to do. I seem to be struggling with margins and alignment the most, but I think it's just a trial and error thing. I just have to keep testing what works and what doesn't. I'm happy about what I've completed thus far, so there's that.
